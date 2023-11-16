@@ -5,7 +5,7 @@
  * @head: stack head included
  * @counter: line_number included
  * Return: no return
-*/
+ */
 void f_pchar(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
@@ -29,4 +29,3 @@ void f_pchar(stack_t **head, unsigned int counter)
 	}
 	printf("%c\n", h->n);
 }
-
